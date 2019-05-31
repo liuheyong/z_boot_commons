@@ -14,7 +14,17 @@ public class Result {
 
     private String resultMessage;
 
+    private String url;
+
     private Object resultData;
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
 
     public String getResultCode() {
         return resultCode;
