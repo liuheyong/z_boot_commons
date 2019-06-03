@@ -1,6 +1,7 @@
 package com.boot.commons.service;
 
 import com.boot.commons.dto.ECooperateMer;
+import com.boot.commons.response.QueryECooperateMerResponse;
 
 import java.util.List;
 
@@ -27,5 +28,5 @@ public interface ECooperateMerService {
      * @exception:
      * @description: 列表
      */
-    List<ECooperateMer> queryECooperateMerListPage(ECooperateMer eCooperateMer) throws Exception;
+    QueryECooperateMerResponse queryECooperateMerListPage(ECooperateMer eCooperateMer) throws Exception;
 }
