@@ -2,6 +2,7 @@ package com.boot.commons.response;
 
 import com.boot.commons.dto.ECooperateMer;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,7 +11,9 @@ import java.util.List;
  * @create: 2019-05-22
  * @description:
  **/
-public class QueryECooperateMerResponse {
+public class QueryECooperateMerResponse implements Serializable {
+
+    private static final long serialVersionUID = 1L;
 
     private List<ECooperateMer> eCooperateMerList;
 

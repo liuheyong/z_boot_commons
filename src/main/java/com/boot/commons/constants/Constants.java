@@ -26,4 +26,9 @@ public interface Constants {
      */
     public static final String DEFAULT_ERROR_VIEW = "error";
 
+    /**
+     * 100
+     */
+    public static final Integer NUMBER_100 = 100;
+
 }
