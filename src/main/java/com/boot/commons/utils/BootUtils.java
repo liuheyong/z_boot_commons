@@ -1,7 +1,5 @@
 package com.boot.commons.utils;
 
-import org.springframework.stereotype.Component;
-
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -13,7 +11,6 @@ import java.util.Map;
  * @create: 2019-05-22
  * @description: BootUtils
  **/
-@Component
 public class BootUtils {
 
     /**
