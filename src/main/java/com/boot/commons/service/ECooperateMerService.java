@@ -3,8 +3,6 @@ package com.boot.commons.service;
 import com.boot.commons.dto.ECooperateMer;
 import com.boot.commons.response.QueryECooperateMerResponse;
 
-import java.util.List;
-
 /**
  * @author: LiuHeYong
  * @create: 2019-05-22
@@ -15,7 +13,7 @@ public interface ECooperateMerService {
     /**
      * @date: 2019/5/24
      * @param: [eCooperateMer]
-     * @return: com.boot.com.alibabacloud.commons.dto.ECooperateMer
+     * @return: com.boot.com.alibabacloud.commons.serviceSub.ECooperateMer
      * @exception:
      * @description: 详情
      */
@@ -24,7 +22,7 @@ public interface ECooperateMerService {
     /**
      * @date: 2019/5/24
      * @param: [eCooperateMer]
-     * @return: com.boot.com.alibabacloud.commons.dto.ECooperateMer
+     * @return: com.boot.com.alibabacloud.commons.serviceSub.ECooperateMer
      * @exception:
      * @description: 列表
      */
